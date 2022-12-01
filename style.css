@@ -1,10 +1,10 @@
 .page {
-
+padding: 0 100px 100px 100px;
 }
 .block-1 {
     display: flex;
     justify-content: space-between;
-    padding: 70px 70px 70px 100px;
+    padding: 70px 70px 70px 0;
     height: 40px;
 }
 .logo-1  {
@@ -15,8 +15,11 @@
     color: white;
     line-height: 40px;
     justify-content: center;
-    margin-right: 0 12px 0 0 ;
-    
+    margin-right:  12px ;
+    border-radius: 4px;
+    letter-spacing: 3px;
+    font-size: 22px;
+    font-family: 'Inter',sans-serif;
     
 }
 .logo-2 {
@@ -24,6 +27,7 @@
     width: 134.469px;
     height: 26px;
     transform: translate(56px, -44px);
+    font-size: 18px;
     
 }
 .logo-right {
@@ -84,7 +88,7 @@
 img {
     height: 530px;
     width: 450px;
-    padding: 0 30px 50px 100px;
+    padding: 0 30px 50px 0;
 }
 .block-2 {
     display: flex;
@@ -131,7 +135,7 @@ img {
 
 
 .block-3 {
-    padding: 60px 70px 30px 100px;
+    padding: 60px 70px 30px 0;
 }
 .second {
     border-bottom: 3px solid #F26464;
