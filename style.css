@@ -1,11 +1,15 @@
-.page {
-padding: 0 100px 100px 100px;
+ body {
+    margin: 0;
 }
 .block-1 {
     display: flex;
     justify-content: space-between;
-    padding: 70px 70px 70px 0;
+    padding: 100px ;
     height: 40px;
+}
+.logo-left {
+    display: flex;
+    gap: 12px;
 }
 .logo-1  {
     display: flex;
@@ -15,19 +19,20 @@ padding: 0 100px 100px 100px;
     color: white;
     line-height: 40px;
     justify-content: center;
-    margin-right:  12px ;
     border-radius: 4px;
     letter-spacing: 3px;
     font-size: 22px;
     font-family: 'Inter',sans-serif;
-    
 }
 .logo-2 {
     display: flex;
-    width: 134.469px;
-    height: 26px;
-    transform: translate(56px, -44px);
+    align-items: center;
     font-size: 18px;
+    letter-spacing: 3px;
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    text-transform: uppercase;
+    
     
 }
 .logo-right {
@@ -88,7 +93,8 @@ padding: 0 100px 100px 100px;
 img {
     height: 530px;
     width: 450px;
-    padding: 0 30px 50px 0;
+    padding-left: 100px;
+    padding-bottom: 70px;
 }
 .block-2 {
     display: flex;
@@ -116,17 +122,12 @@ img {
     color: #000;
 
 }
-.title-3 {
-    margin: 3px;
-    padding: 3px;
-}
 .title th {
     text-align: left;
     font-weight: 600;
     font-size: 36px;
     line-height: 60px;
     color: #F26464;
-    margin: 3px;
 }
 
 .title td {
@@ -134,20 +135,18 @@ img {
     font-size: 16px ;
     letter-spacing: 1px;
     font-weight: lighter;
-    margin: 3px;
     
 }
 
 
 
 .block-3 {
-    padding: 60px 70px 30px 0;
+    padding-left: 100px;
 }
 .second {
     border-bottom: 3px solid #F26464;
     padding-bottom: 7px;
     font-family: 'Inter',sans-serif;
-    width: 89px;
     font-size: 16px;
 
 }
@@ -174,7 +173,7 @@ img {
     font-size: 12px;
     line-height: 13px;
     letter-spacing: 3px;
-    margin-top: 0;
+    margin-top: 40px;
     cursor: pointer;
 }
 .btn:hover {
