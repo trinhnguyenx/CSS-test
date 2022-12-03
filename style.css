@@ -4,8 +4,14 @@
 .block-1 {
     display: flex;
     justify-content: space-between;
-    padding: 100px ;
+    padding: 1.5rem 6rem 1.5rem 6rem ;
     height: 40px;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 0;
+    left: 0;
+   
 }
 .logo-left {
     display: flex;
@@ -93,22 +99,24 @@
 img {
     height: 530px;
     width: 450px;
-    padding-left: 100px;
-    padding-bottom: 70px;
+    padding-left: 6rem;
+    padding-bottom: 4ream;
 }
 .block-2 {
     display: flex;
-    padding-right: 100px;
+    padding-right: 6rem;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
 }
 
 .title {
     display: flex;
     flex-direction: column;
-    padding :0 100px 0 70px;
+    padding :0 5rem 0 4rem;
     width: 500px;   
 }
 .title-1 {
-    font-family: 'Inter',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 16px;
     padding: 0 0 30px;
     font-weight: 500;
@@ -120,6 +128,7 @@ img {
     font-size: 48px;
     line-height: 60px;
     color: #000;
+    font-family: 'Inter',sans-serif;
 
 }
 .title th {
@@ -128,6 +137,7 @@ img {
     font-size: 36px;
     line-height: 60px;
     color: #F26464;
+    font-family:'Inter',sans-serif ;
 }
 
 .title td {
@@ -141,7 +151,7 @@ img {
 
 
 .block-3 {
-    padding-left: 100px;
+    padding-left: 6rem;
 }
 .second {
     border-bottom: 3px solid #F26464;
@@ -193,4 +203,79 @@ img {
     background-color: #000;
     color: white;
 
+}
+.block-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+
+}
+.title-skill-left {
+    padding: 6rem;
+}
+.title-left-top {
+    margin-left: 6rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #F26464;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+
+}
+.title-skill-left th  {
+    display: inline-block;
+    color: #373737;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 27px;
+    margin:0 1rem 1rem 0;
+    font-weight: 500;
+
+}
+.title-skill-left td {
+    display: inline-block;
+    color: #373737;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 27px;
+    margin:0 1rem 1rem 0;
+    font-weight: 500;
+}
+.title-right-top {
+    margin-right: 6rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #F26464;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 600
+}
+.title-skill-right {
+    padding: 6rem 6rem 6rem 0;
+}
+.title-skill-right th {
+    display: inline-block;
+    color: #373737;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 27px;
+    margin:0 1rem 1rem 0;
+    font-weight: 500;
+}
+.title-skill-right td {
+    display: inline-block;
+    color: #373737;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 27px;
+    margin:0 1rem 1rem 0;
+    font-weight: 500;
 }
