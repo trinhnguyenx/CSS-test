@@ -90,6 +90,7 @@ img {
     width: 450px;
     padding-left: 7rem;
     padding-bottom: 4ream;
+    transition: all ease .3s;
     
 }
 .block-2 {
@@ -97,6 +98,7 @@ img {
     padding-right: 7rem;
     margin-top: 9rem;
     margin-bottom: 4rem;
+    overflow: hidden;
 }
 
 .title {
@@ -185,7 +187,7 @@ img {
     color: white;
 }
 img:hover { 
-    object-fit: cover;
+    transform: scale(1.1);
 }    
 .block-4 {
     display: flex;
