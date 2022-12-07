@@ -184,10 +184,8 @@ img {
     background-color: #000;
     color: white;
 }
-img:hover {
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1); 
+img:hover { 
+    object-fit: cover;
 }    
 .block-4 {
     display: flex;
